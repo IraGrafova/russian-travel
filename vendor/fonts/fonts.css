@@ -11,3 +11,10 @@
          url(./Inter\ Web/Inter-Regular.woff) format(woff);
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Inter-Black';
+    src: url(./Inter\ Web/Inter-Black.woff2) format(woff2),
+         url(./Inter\ Web/Inter-Black.woff) format(woff);
+    font-weight: bold;
+}
