@@ -1,0 +1,7 @@
+.photo-grid__item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    row-gap: 12px;
+}

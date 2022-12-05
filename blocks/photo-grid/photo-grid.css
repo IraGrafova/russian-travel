@@ -1,0 +1,5 @@
+.photo-grid {
+    width: 90%;
+    margin-top: 64px;
+    margin: 64px calc((100% - 90%)/2);
+}
