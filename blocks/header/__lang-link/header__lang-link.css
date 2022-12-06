@@ -1,31 +1,33 @@
 .header__lang-link {
-    border: red solid 1px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     /* identical to box height, or 111% */
     color: #FFFFFF;  
-    text-decoration: none;   
-    align-self: flex-end;
+    text-decoration: none;
+}    
+.header__lang-link:first-child {
     margin-right: 18px;
 }
-
- .header__lang-link:last-child {
-    margin-right: 0;
-} 
 .header__lang-link:checked {
     text-decoration: underline;
 }
 
-.header__lang-link-off {
+
+.header__lang-link_right {
+    margin-right: 10px;
+}
+
+
+.header__lang-link_off {
 position: absolute;
-        width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+        width: 1px;
         height: 1px;
-        overflow: hidden; /* без этого свойства тоже сработает, но так наверняка. Мы его ещё изучим, оно скрывает элементы, выходящие за границы родителя */
+        overflow: hidden;
         clip-path: inset(0 0 0 0);
 }
 
- .header__lang-link-off:checked + .header__lang-link {
+ .header__lang-link_off:checked + .header__lang-link {
 text-decoration: underline;
 }
