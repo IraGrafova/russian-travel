@@ -1,0 +1,6 @@
+.place__website {
+    width: 90%;
+    border: red solid 1px;
+    margin: 32px calc((100% - 90%)/2) 0;
+   
+}

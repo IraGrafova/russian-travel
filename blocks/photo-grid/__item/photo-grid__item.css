@@ -4,4 +4,6 @@
     margin: 0;
     display: grid;
     row-gap: 12px;
+    width: 100%;
+    object-fit: contain;
 }

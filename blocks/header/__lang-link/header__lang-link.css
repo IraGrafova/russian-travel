@@ -14,20 +14,3 @@
     text-decoration: underline;
 }
 
-
-.header__lang-link_right {
-    margin-right: 10px;
-}
-
-
-.header__lang-link_off {
-position: absolute;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        clip-path: inset(0 0 0 0);
-}
-
- .header__lang-link_off:checked + .header__lang-link {
-text-decoration: underline;
-}

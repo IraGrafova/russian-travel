@@ -3,13 +3,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
-
+    line-height: 1;
     letter-spacing: 2px;
-
     color: #AAAAAA;
-    margin: 32px auto 0;
-    width: 90%;
-
+    margin: 0 auto 12px;
 }
