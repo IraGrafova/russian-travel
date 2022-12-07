@@ -4,9 +4,16 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    /* or 109% */
     color: #FFFFFF;
     width: 90%;
     margin-top: 64px;
     margin-left: calc((100% - 90%)/2);
+}
+@media  (min-width : 768px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+        margin-top: 88px;
+        margin-left: 24px;
+    }
 }

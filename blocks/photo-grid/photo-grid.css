@@ -5,4 +5,5 @@
     border: 1px red solid;
     display: grid;
     box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
 }

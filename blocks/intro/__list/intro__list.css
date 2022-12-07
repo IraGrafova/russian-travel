@@ -11,3 +11,8 @@
     margin: 34px calc((100% - 90%)/2) 0;
     
 }
+@media  (min-width : 768px) {
+    .intro__list {
+        margin: 33px 24px 0;
+    }
+}
