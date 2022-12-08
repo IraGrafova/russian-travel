@@ -6,4 +6,6 @@
    font-family: 'Inter' 'Arial' sans-serif;
    box-sizing: border-box;
    border: 1px red solid;
+   margin: 0;
+   padding: 0;
 }
