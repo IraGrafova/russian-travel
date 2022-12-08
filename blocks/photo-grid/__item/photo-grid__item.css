@@ -2,17 +2,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    gap: 12px;
-    width: 100%;
     object-fit: contain;
     box-sizing: border-box;
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     width: 100%;
-}
-@media  (min-width : 768px) {
-    .photo-grid__item {
-        gap: 16px;
-    }
 }
