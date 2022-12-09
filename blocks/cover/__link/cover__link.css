@@ -1,12 +1,13 @@
 .cover__link { 
     background-image: url(../../../images/cover-trains.jpg);
-    min-height: 200px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;    
     display: block;
     position: absolute;
     z-index: 3;
+    height: 0;
+    padding-bottom: 62.5%; 
 }
 .cover__link::before { 
     content: "";
@@ -21,4 +22,9 @@
 }
 .cover__link:hover::before {
     opacity: 0.8;  
+}
+@media  (min-width : 1185px) {
+    .cover__link {
+        width: 1184px;
+    }
 }
