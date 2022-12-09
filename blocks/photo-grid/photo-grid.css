@@ -2,8 +2,7 @@
     width: 90%;
     padding: 0;
     margin: 64px calc((100% - 90%)/2) 0;
-    padding-bottom: 14px;
-    border: 1px red solid;    
+    padding-bottom: 14px;  
 }
 @media  (min-width : 768px) {
     .photo-grid {

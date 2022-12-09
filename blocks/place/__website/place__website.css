@@ -1,6 +1,13 @@
 .place__website {
     width: 90%;
-    border: red solid 1px;
-    margin: 32px calc((100% - 90%)/2) 0;
-   
+    margin: 0 calc((100% - 90%)/2);
+    box-sizing: border-box; 
+    align-self: end; 
+}
+@media  (min-width : 768px) {
+    .place__website {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
