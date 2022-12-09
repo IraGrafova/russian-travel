@@ -2,8 +2,7 @@
     display: grid;
     row-gap: 32px;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    box-sizing: border-box;
-    max-width: 720px;  
+    box-sizing: border-box;  
 }
 @media  (min-width : 768px) {
     .place {
