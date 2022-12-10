@@ -7,14 +7,14 @@
     color: #FFFFFF;
     margin-top: 64px;
 }
-@media  (min-width : 768px) {
+@media  (min-width: 768px) {
     .intro__title {
         font-size: 54px;
         line-height: 58px;
         margin-top: 88px;
     }
 }
-@media  (min-width : 1024px) {
+@media  (min-width: 1024px) {
     .intro__title {
         margin-top: 92px;
     }

@@ -11,8 +11,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-@media  (min-width : 928px) {
+@media  (min-width: 928px) {
     .lead__caption {
-        margin-left: 0;              
+        margin-left: 0;
     }
 }

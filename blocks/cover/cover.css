@@ -3,19 +3,19 @@
     width: 100%;
     position: relative;
     height: 0;
-    padding-bottom: 62.5%; 
+    padding-bottom: 62.5%;
 }
-@media  (min-width : 768px) {
+@media  (min-width: 768px) {
     .cover {
-        margin-top: 90px;        
+        margin-top: 90px;
     }
 }
-@media  (min-width : 1024px) {
-    .cover { 
+@media  (min-width: 1024px) {
+    .cover {
         margin-top: 92px;
     }
 }
-@media  (min-width : 1185px) {
+@media  (min-width: 1185px) {
     .cover {
         width: 1184px;
         margin: 92px auto 0;

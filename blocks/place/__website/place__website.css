@@ -1,10 +1,10 @@
 .place__website {
     width: 90%;
     margin: 0 calc((100% - 90%)/2);
-    box-sizing: border-box; 
-    align-self: end; 
+    box-sizing: border-box;
+    align-self: end;
 }
-@media  (min-width : 768px) {
+@media  (min-width: 768px) {
     .place__website {
         width: 100%;
         margin: 0;
