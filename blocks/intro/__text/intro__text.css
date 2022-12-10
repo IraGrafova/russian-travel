@@ -5,10 +5,14 @@
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 40px calc((100% - 90%)/2) 0;
 }
 @media  (min-width : 768px) {
     .intro__text {
-        margin-left: 24px;
+       max-width: 720px;
+    }
+}
+@media  (min-width : 1024px) {
+    .intro__text {
+       max-width: 690px;
     }
 }
