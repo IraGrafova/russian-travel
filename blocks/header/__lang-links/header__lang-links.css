@@ -1,8 +1,7 @@
 .header__lang-links {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 .header__lang-link_off:checked + .header__lang-link {
-    text-decoration: underline;
-    }
-    
+  text-decoration: underline;
+}

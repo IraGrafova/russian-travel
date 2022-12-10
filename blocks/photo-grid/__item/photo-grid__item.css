@@ -1,8 +1,8 @@
 .photo-grid__item {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    object-fit: contain;
-    box-sizing: border-box;
-    width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  object-fit: contain;
+  box-sizing: border-box;
+  width: 100%;
 }
