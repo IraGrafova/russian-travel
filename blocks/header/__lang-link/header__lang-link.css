@@ -6,11 +6,14 @@
   color: #ffffff;
   text-decoration: none;
 }
+.header__lang-link:active {
+  text-decoration: underline;
+}
+.header__lang-link:hover {
+  opacity: 0.3;
+}
 .header__lang-link:first-child {
   margin-right: 18px;
-}
-.header__lang-link:checked {
-  text-decoration: underline;
 }
 @media (min-width: 768px) {
   .header__lang-link {
