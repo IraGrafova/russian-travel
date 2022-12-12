@@ -7,9 +7,11 @@
   line-height: 35px;
   color: #ffffff;
   margin-top: 64px;
+  width: 87%;
 }
 @media (min-width: 768px) {
   .intro__title {
+    width: 95%;
     font-size: 54px;
     line-height: 58px;
     margin-top: 89px;

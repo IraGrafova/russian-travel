@@ -1,6 +1,7 @@
 .lead__items {
     display: flex;
     flex-direction: column;
+    gap: 8px;
     width: 100%;
     margin: 0 auto;
     max-width: 928px;;

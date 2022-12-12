@@ -3,6 +3,7 @@
   object-fit: contain;
   margin: 0 auto;
   max-width: 928px;
+  display: block;
 }
 @media (min-width: 1280px) {
   .lead__image {

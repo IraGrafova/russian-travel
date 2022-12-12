@@ -3,6 +3,11 @@
   padding: 0;
   list-style: none;
   display: flex;
-  gap: 19px;
+  gap: 18px;
   padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .header__lang-links {
+    gap: 19px;
+  }
 }
