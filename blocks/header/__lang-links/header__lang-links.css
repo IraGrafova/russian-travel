@@ -1,7 +1,8 @@
 .header__lang-links {
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
-}
-.header__lang-link_off:checked + .header__lang-link {
-  text-decoration: underline;
+  gap: 19px;
+  padding-bottom: 5px;
 }

@@ -5,15 +5,8 @@
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
-}
-.header__lang-link:active {
-  text-decoration: underline;
-}
-.header__lang-link:hover {
-  opacity: 0.3;
-}
-.header__lang-link:first-child {
-  margin-right: 18px;
+  padding: 0;
+  margin: 0;
 }
 @media (min-width: 768px) {
   .header__lang-link {
