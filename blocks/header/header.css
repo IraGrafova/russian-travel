@@ -9,7 +9,11 @@
 @media (min-width: 768px) {
   .header {
     padding-top: 28px;
-    margin-left: 26px;
-    min-width: 720px;
+    width: 93.75%;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    width: 90.625%;
   }
 }

@@ -17,6 +17,11 @@
     margin-bottom: 32px;
   }
 }
+@media (min-width: 1024px) {
+  .lead__title {
+    width: 75%;
+  }
+}
 @media (min-width: 1280px) {
   .lead__title {
     margin-top: 56px;
