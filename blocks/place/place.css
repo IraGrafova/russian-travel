@@ -25,7 +25,8 @@
 }
 @media (min-width: 1280px) {
   .place {
-    width: 76.25%;
+    width: 77%;
     grid-template-columns: minmax(460px) minmax(484px, 1fr);
+    column-gap: 40px;
   }
 }

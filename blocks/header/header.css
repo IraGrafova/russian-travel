@@ -17,3 +17,8 @@
     width: 90.625%;
   }
 }
+@media (min-width: 1280px) {
+  .header {
+    width: 92.5%;
+  }
+}
