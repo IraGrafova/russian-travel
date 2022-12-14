@@ -6,8 +6,3 @@
   gap: 18px;
   padding-bottom: 5px;
 }
-@media (min-width: 768px) {
-  .header__lang-links {
-    gap: 19px;
-  }
-}

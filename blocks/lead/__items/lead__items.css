@@ -1,13 +1,13 @@
 .lead__items {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 928px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 928px;
 }
 @media (min-width: 1280px) {
-    .lead__items {
-      max-width: 984px;
-    }
+  .lead__items {
+    max-width: 984px;
   }
+}
